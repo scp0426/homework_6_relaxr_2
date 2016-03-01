@@ -1,0 +1,281 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     font-family: 'Open Sans', sans-serif;
+     margin: 0px;
+}
+
+
+h2 {
+  margin: 0;
+}
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     background-color: #f0efef;
+     
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+
+/*HEADER*/
+
+header {
+background-color: #033048;
+height: 100px;
+}
+
+header h1 {
+  color: white;
+  float: left;
+  margin-left: 5%;
+ /* width: 30%;
+  clear: right;
+  padding-top: 10px;
+  padding-left: 10px;*/
+}
+
+header li {
+  list-style-type: none;
+  /*padding: 30px;*/
+  float: left;
+  padding: 0px 20px;
+}
+
+header ul {
+  float: right;
+}
+
+header nav {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9e42e;
+  line-height: 1;
+  margin-right: 5%;
+}
+
+main {
+width: 60%;
+float: left;
+}
+
+/*******POSTS*********/
+
+
+
+.post {
+  margin-right: 38%;
+  margin-left: 5%;
+  width: 700px;
+  border-bottom: 2px solid black;
+  clear: both;
+}
+
+.post h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.post p::first-letter {
+/*font-size: 200%;
+font-weight: 700;
+position: relative;
+top: 20px;*/
+}
+
+.first-letter {
+  font-size: 700%;
+  float: left;
+  font-weight: 700;
+  padding-right: 10px;
+  position: relative;
+  top: 12px;
+}
+
+.post p {
+  font-weight: 300;
+  font-size: 24px;
+
+}
+
+.read-more {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 78%;
+  padding-bottom: 5%;
+}
+
+.read-more a {
+  text-decoration: none;
+}
+
+/*/*************************POSTS*//******************************/
+
+
+/****************************sidebar****************/
+
+aside {
+  width: 40%;
+  float: left;
+}
+
+/*.sidebar {
+  position: relative;
+  bottom: 1900px;
+}
+*/
+.sidebar h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.categories {
+margin-right: 10%;
+}
+
+.categories ul {
+  list-style: none;
+  font-size: 24px;
+  font-weight: 300;
+  position: relative;
+  right: 38px;
+  }
+
+
+
+.about {
+  /*margin-left: 72%;*/
+  margin-right: 5%;
+  padding-bottom: 5%;
+}
+
+.about p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.about a {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.ad {
+  margin-right: 8%;
+}
+
+
+/********************************sidebar***************************/
+
+/*SIGN UP*/
+
+.sign_up {
+  background-color: #f9e42e;
+  height: 150px;
+  font-size: 20px;
+  margin-top: 10%;
+  clear: both;
+}
+
+.sign_up button {
+  margin-left: 40%;
+  margin-top: 3.5%;
+  color: white;
+  background-color: #033048;
+  width: 20%;
+  height: 50%
+  font-weight: 800;
+}
+
+.sign_up button h3 {
+  font-size: 16px;
+}
+
+/*SIGN UP*/
+
+footer {
+  background-color: black;
+  height: 400px;
+  clear: both;
+}
+
+footer h2 {
+  /*padding-top: 2%;*/
+  color: #f9e42e;
+  margin-left: 45%;
+  font-size: 36px;
+}
+
+.social {
+  margin-top: 5%;
+  margin-left: 46%;
+}
+
+#twitter {
+  position: relative;
+  bottom: 38px;
+  left: 46px;
+
+}
+
+footer p {
+  color: white;
+  position: relative;
+  right: 10px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
